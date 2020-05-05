@@ -44,3 +44,9 @@ Ao iniciar, configure o banco de dados em `Settings>Admin>databases`.
 ## Contribuições
 
 Veja as intruções para contribuir com o projeto em CONTRIBUTING.md.
+
+
+## Referências
+
+* [Brasil.IO - Dados abertos para um Brasil mais ligado](https://github.com/turicas/brasil.io)
+* [Metabase](https://www.metabase.com/start/)
