@@ -39,3 +39,8 @@ Ao iniciar, configure o banco de dados em `Settings>Admin>databases`.
 ## Simples Exemplo Dashboard
 
 ![](images/exemplo.png)
+
+
+## Contribuições
+
+Veja as intruções para contribuir com o projeto em CONTRIBUTING.md.
