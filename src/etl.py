@@ -77,7 +77,7 @@ def postgres_connection(host = "localhost"):
         # declare a new PostgreSQL connection object
         conn = connect(
             dbname = "br_covid",
-            user = "postgres",
+            user = "metabase",
             host = host,
             password = password,
             # attempt to connect for 3 seconds then raise exception
