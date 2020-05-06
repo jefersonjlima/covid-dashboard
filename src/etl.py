@@ -3,7 +3,6 @@ import datetime
 import requests
 from psycopg2 import connect, Error
 
-
 parser = argparse.ArgumentParser(description='BRAZILIAN COVID-19 DATABASE ETL.')
 parser.add_argument('--version', action='version', version='0.0.1')
 args = parser.parse_args()
@@ -104,7 +103,7 @@ def main():
         results = []
         PAGE='1'
         while True:
-            print(f"Page: {PAGE}")
+            print(f"Loading Page: {PAGE} ...")
             r = requests.get(url = URL_BASE + FULL_DATA + f"?page={PAGE}")
             data = r.json()
             if data['next']:
@@ -114,7 +113,6 @@ def main():
             else: break
     except Exception as e:
         print(f'API brasil.io Error: {e}')
-
 
 
 if __name__ == '__main__':
