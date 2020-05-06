@@ -44,7 +44,7 @@ def create_table(cursor) -> None:
         );""")
 
 # TODO: Poor solution
-def insert_one(cursor, values):
+def insert_one(cursor, values) -> None:
     for value in values:
         #remove states
         str_ibge_code = str(value['city_ibge_code'])

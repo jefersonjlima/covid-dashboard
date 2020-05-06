@@ -4,7 +4,8 @@ Este projeto tem como próposito disponibilizar uma ferramenta de simples acesso
 
 ## Requisitos
 * Python3
-* psycopg2
+    * requests
+    * psycopg2
 * PostgreSQL
 
 ## Como Usar
@@ -37,10 +38,11 @@ $ java -jar metabase.jar
 
 Ao iniciar, configure o banco de dados em `Settings>Admin>databases`.
 
-## Simples Exemplo Dashboard
+## Exemplo Dashboard
 
 ![](images/exemplo.png)
 
+Click a[qui](http://45.76.59.111:3000/public/dashboard/b8d196d8-9468-4dc0-bd24-cb48b69a9dd4) para o acessar o `dashboard`.
 
 ## Contribuições
 
