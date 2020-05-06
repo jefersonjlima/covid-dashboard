@@ -24,6 +24,7 @@ $ python3 etl.py
 ```
 Pronto, os dados serão incluídos no bancos de dados.
 
+
 ## Configurando o Metabase
 
 Baixe última versão do [Metabase](https://www.metabase.com/start/).
