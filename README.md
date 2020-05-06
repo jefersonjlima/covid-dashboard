@@ -12,9 +12,9 @@ Este projeto tem como próposito disponibilizar uma ferramenta de simples acesso
 
 Criar table no bando de dados
 ```
-$ sudo -i -u postgres psql
-postgres=# CREATE DATABASE br_covid;
-postgres=# GRANT ALL PRIVILEGES ON DATABASE br_covid TO postgres;
+$ sudo -i -u metabase psql
+metabase=# CREATE DATABASE br_covid;
+metabase=# GRANT ALL PRIVILEGES ON DATABASE br_covid TO metabase;
 ```
 
 Rodar O ETL Script e informar a senha do Banco de Dados:
