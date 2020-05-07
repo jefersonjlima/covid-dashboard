@@ -42,7 +42,7 @@ Ao iniciar, configure o banco de dados em `Settings>Admin>databases`.
 
 ![](images/exemplo.png)
 
-[Click aqui](http://45.76.59.111:3000/public/dashboard/b8d196d8-9468-4dc0-bd24-cb48b69a9dd4#theme=night) para o acessar o `dashboard`.
+[Click aqui](http://149.28.110.217:3000/public/dashboard/13b79964-6711-436e-9fe1-e3c4de76c9b0#theme=night) para o acessar o `dashboard`.
 
 ## Contribuições
 
