@@ -94,7 +94,6 @@ def postgres_connection(host = "localhost"):
     return conn, cur
 
 def main():
-
     conn, cur = postgres_connection()
     assert(conn != None), "postgres connection error"
     create_table(cur)
