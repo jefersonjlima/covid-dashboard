@@ -49,6 +49,10 @@ Ao iniciar, configure o banco de dados em `Settings>Admin>databases`.
 Veja as intruções para contribuir com o projeto em CONTRIBUTING.md.
 
 
+## Social
+
+* <sub><sub>[![Discord](https://img.shields.io/discord/708027279854534656?logo=discord&logoColor=white)](https://discord.gg/e8EQFT)</sub></sub>
+
 ## Referências
 
 * [Brasil.IO - Dados abertos para um Brasil mais ligado](https://github.com/turicas/brasil.io)
