@@ -1,6 +1,6 @@
 # COVID-19 Dashboard
 
-Este projeto tem como próposito disponibilizar uma ferramenta de simples acesso aos dados de COVID-19 no Brasil. A opção pela ferramenta de visualização de dados [Metabase](https://www.metabase.com/start/) se dá pelo fato da simplicidade em formular "perguntas" em função do banco de dados.
+Este projeto tem como proposito disponibilizar uma ferramenta de simples acesso aos dados de COVID-19 no Brasil. A opção pela ferramenta de visualização de dados [Metabase](https://www.metabase.com/start/) se dá pelo fato da simplicidade em formular "questões" em função do banco de dados.
 
 ## Requisitos
 * Python3
@@ -23,8 +23,7 @@ $ python3 etl.py
 >> PostgreSQL Password: 
 ...
 ```
-Pronto, os dados serão incluídos no bancos de dados.
-
+Pronto, os dados serão incluídos no banco de dados.
 
 ## Configurando o Metabase
 
@@ -52,6 +51,10 @@ Veja as intruções para contribuir com o projeto em CONTRIBUTING.md.
 ## Social
 
 * <sub><sub>[![Discord](https://img.shields.io/discord/708027279854534656?logo=discord&logoColor=white)](https://discord.gg/e8EQFT)</sub></sub>
+
+## Responsáveis
+* João Tavares - [@TavaresJoao](https://github.com/TavaresJoao)
+* Jeferson Lima - [@jeferson.lima](https://gitlab.com/jeferson.lima)
 
 ## Referências
 
