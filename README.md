@@ -54,6 +54,8 @@ Veja as intruções para contribuir com o projeto em CONTRIBUTING.md.
 
 ## Responsáveis
 * João Tavares - [@TavaresJoao](https://github.com/TavaresJoao)
+* Victor Alberti Costa[](https://gitlab.com/victorUTF)
+* Vitor Oliveira Dos Santos[@vitor-o-s](https://gitlab.com/vitor-o-s)
 * Jeferson Lima - [@jeferson.lima](https://gitlab.com/jeferson.lima)
 
 ## Referências
