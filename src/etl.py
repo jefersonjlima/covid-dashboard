@@ -2,6 +2,7 @@ import argparse
 import datetime
 import requests
 from psycopg2 import connect, Error
+import time
 
 parser = argparse.ArgumentParser(description='BRAZILIAN COVID-19 DATABASE ETL.')
 parser.add_argument('--version', action='version', version='0.0.1')
@@ -98,10 +99,11 @@ def main():
     assert(conn != None), "postgres connection error"
     create_table(cur)
 
-    try:
-        results = []
-        PAGE='1'
-        while True:
+
+    results = []
+    PAGE='1'
+    while True:
+        try:
             print(f"Loading Page: {PAGE} ...")
             r = requests.get(url = URL_BASE + FULL_DATA + f"?page={PAGE}")
             data = r.json()
@@ -110,8 +112,11 @@ def main():
                 insert_one(cur, data['results'])
                 conn.commit()
             else: break
-    except Exception as e:
-        print(f'API brasil.io Error: {e}')
+        except Exception as e:
+            print(f'API brasil.io Error: {e} - message: {data["message"]}')
+            print('Wating 30 seconds...')
+            time.sleep(30)
+
 
 
 if __name__ == '__main__':
